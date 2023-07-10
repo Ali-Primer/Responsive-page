@@ -1,0 +1,161 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 375px;
+    background: hsl(210, 46%, 95%);
+}
+
+.window{
+    margin: 0 auto;
+}
+
+.cards {
+    width: 90%;
+    background: hsl(263, 55%, 52%);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+img{
+    border-radius: 100%;
+}
+
+.Daniel {
+    border: 4px solid hsl(263, 55%, 62%);
+}
+
+.Patrick{
+    border: 4px solid hsl(263, 55%, 52%)
+}
+
+.info {
+    display: flex;
+}
+
+.user {
+    margin-left: 18px;
+}
+
+.user .name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.cards4 .name, .cards2 .name{
+    color: hsl(219, 29%, 14%);
+}
+
+.cards4 .job, .cards2 .job{
+    color:  hsl(219, 29%, 14%, 50%)!important;
+}
+
+
+.user .job {
+    margin-top: -10px;
+    color: hsl(0, 0%, 100%, 50%);
+}
+
+.main {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.colorless {
+    color: hsl(0, 0%, 100%, 70%);
+    font-weight: 500;
+    font-size: 0.8125rem;
+}
+
+.cards1{
+    background: hsl(217, 19%, 35%);
+}
+
+.cards2{
+    background: hsl(0, 0%, 100%);
+}
+
+.cards3{
+    background: hsl(219, 29%, 14%);
+}
+
+.cards4{
+    background: hsl(0, 0%, 100%);
+}
+
+.cards2 p,.cards4 p{
+    color: hsl(219, 29%, 14%) ;
+}
+
+.cards2 .colorless,.cards4 .colorless{
+    color: hsl(219, 29%, 14%, 70%);
+}
+
+@media (min-width: 1339px){
+    html{
+        width: 100%;
+    }
+
+    .window{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
+    .cards_group1{
+        padding: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .cards_group2{
+        padding: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .cards ,.cards1 ,.cards2 ,.cards3{
+        margin: 15px;
+    }
+    .cards{
+        height: 250px;
+    }
+    .cards1{
+        width: 300px;
+        height: 250px;
+    }
+    .cards2{
+        width: 300px;
+        height: 250px;
+    }
+    .cards3{
+        height: 250px;
+    }
+    .cards4{
+        height: 620px;
+        width: 40%;
+    }
+    img{
+        width: 30px;
+        border: 0;
+    }
+
+    .user{
+        margin-top: -10px;
+        margin-left: 0px;
+        font-size: smaller;
+    }
+    .photo{
+        width: 10%;
+    }
+    .cards2 .user, .cards1 .user ,.cards4 .user{
+        margin-left: 30px;
+        margin-top: -15px;
+    }
+    .main{
+        font-size: larger;
+    }
+}
